@@ -1,0 +1,194 @@
+body {
+    background-color: #EAEAEA;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+a:hover {
+    transition: all 0.5s !important;
+}
+
+.bg {
+    background-image: url(/picture/background.jpg) !important;
+}
+
+.container-login {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+
+.hanif-container {
+    width: 1200px;
+    margin: auto;
+}
+
+.form-login {
+    border: 2px solid;
+    border-color: lightgray;
+    border-radius: 7px !important;
+    padding: 10px;
+    padding-bottom: 5px;
+    background-color: white;
+}
+
+.login-title {
+    text-align: center;
+    line-height: 10px;
+    padding-top: 10px;
+}
+
+.forgot-password {
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    color: darkblue !important;
+}
+
+.hanif-tidak-ada-akun {
+    text-decoration: none;
+    font-size: 12px;
+    text-align: right;
+}
+
+.hanif-link-warning {
+    color: firebrick;
+}
+
+.hanif-brand {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.hanif-footer-text {
+    font-size: smaller;
+}
+
+.hanif-link-contact {
+    color: firebrick !important;
+    text-decoration: none;
+}
+
+.hanif-copyright {
+    text-decoration: none;
+    color: white;
+}
+
+.mt-5 {
+    padding-bottom: 0px !important;
+}
+
+.hanif-grid {
+    width: 1200px;
+    padding: auto;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.hero-image {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.hanif-btn {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: black;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 200px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
+}
+
+.hanif-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.hanif-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s !important;
+}
+
+.hanif-btn:hover span {
+    padding-right: 25px;
+    color: white;
+}
+
+.hanif-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+    color: white;
+}
+
+.hanif-btn:hover {
+    background-color: firebrick;
+}
+
+.hanif-mt-5 {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.hanif-p-4 {
+    padding-bottom: 10px !important;
+}
+
+.hanif-border {
+    border-radius: 10px;
+}
+
+.hanif-product-img {
+    width: 200px !important;
+    border-radius: 5px;
+}
+
+.hanif-product-img-chart {
+    width: 10% !important;
+    border-radius: 5px;
+}
+
+.hanif-product-desc {
+    padding: 10px;
+}
+
+.hanif-promo-price {
+    text-decoration: line-through;
+    color: firebrick !important;
+}
+
+.hanif-product-price {
+    color: darkblue !important;
+    font-size: 1.1rem;
+}
+
+.hanif-product-padding {
+    padding: 20px 10px 20px 10px !important;
+}
+
+.hanif-category {
+    font-style: bold !important;
+    color: black !important;
+}
+
+.hanif-pict-media {
+    width: 50px;
+}
+
+.hanif-iframe {
+    border-radius: 10px;
+}
